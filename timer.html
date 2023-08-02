@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer</title>
+    <link rel="stylesheet" href="./css/timer.css">
+</head>
+
+<body>
+    <div class="box_main">
+        <div class="box_time">
+            <input type="number" placeholder="00" class="set" min="0"/><label class="col"> : </label>
+            <input type="number" placeholder="00" class="set" min="0" max="59" maxlength="2"/><label class="col"> : </label>
+            <input type="number" placeholder="00" class="set" min="0" max="59" maxlength="2"/>
+        </div>
+        <button class="btn" onclick="start()">start</button>
+        <button class="btn" onclick="stop()">stop</button>
+        <button class="btn" onclick="reset()">reset</button>
+    </div>
+    <script src="./js/timer.js"></script>
+</body>
+
+</html>
