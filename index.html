@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>miniintern</title>
-    <link rel="stylesheet" href="./css/miniintern.css" />
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/imgslide.css" />
   </head>
 
@@ -14,8 +15,9 @@
         <div class="header_inner">
           <div class="brand_logo">
             <a href="#">
-              <div class="logo">
-                <img src="./img/logo.png" alt="" />
+              <div>
+                <img src="./img/logo.png" alt="" class="logo" />
+                <img src="./img/rwlogo.png" alt="" class="rw_logo" />
               </div>
             </a>
           </div>
@@ -39,6 +41,17 @@
                 <li class="li_right bl"><a href="#">기업회원</a></li>
               </ul>
             </div>
+          </div>
+          <nav class="hamburger_nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+          <div class="hamburger_menu">
+            <img src="./img/hamburger.png" alt="" />
           </div>
         </div>
       </header>
@@ -290,5 +303,6 @@
       <footer></footer>
     </div>
     <script src="./js/imgslide.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
